@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://neilpatel.com/wp-content/uploads/2021/06/shutterstock_414630034.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+input{
+    background-color: #EAEAEA;
+    width:400px;
+    height: 40px;
+    border: 2px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px ;
+    margin-bottom: 20px;
+
+
+}
+input:after{
+    display: inline-block;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: black;
+    content:"";
+}
+::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+button{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    box-shadow: 5px 5px #EBB02D;
+    font-family: 'Roboto Mono', monospace;
+}
+img{
+    height: 40px;
+    z-index: 10px;
+    background-color: black;
+    border: 5px solid black;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 10px 10px black;
+}
+canvas{
+    background-color: white;
+    box-shadow: 10px 10px #EBB02D;
+    border-radius: 10px;
+}
